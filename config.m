@@ -62,4 +62,4 @@ XFAT=32
 # Give extra compiler DEFINE flags here
 # such as -DDEBUG : extra DEBUG output
 #         -DDOSEMU : printf output goes to dosemu log
-# set ALLCFLAGS=-DDEBUG -DWIN31SUPPORT
+set ALLCFLAGS=-DDEBUG -DWIN31SUPPORT
