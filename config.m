@@ -52,9 +52,9 @@ XUPX=upx --8086 --best
 # select your default target: required CPU and what FAT system to support
 #*********************************************************************
 
-# XCPU=86
+XCPU=86
 # XCPU=186
-XCPU=386
+# XCPU=386
 
 # XFAT=16
 XFAT=32
@@ -62,4 +62,4 @@ XFAT=32
 # Give extra compiler DEFINE flags here
 # such as -DDEBUG : extra DEBUG output
 #         -DDOSEMU : printf output goes to dosemu log
-# set ALLCFLAGS=-DDEBUG
+# set ALLCFLAGS=-DDEBUG -DWIN31SUPPORT
